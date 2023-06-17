@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    color: white;
+}
+
+.seccion-cartas {
+    margin-top: 25px;
+}
+
+.otraSeccion {
+    margin-top: 25px;
+}
+
+.formulario {
+    margin-top: 25px;
+}
+
+.footer-color {
+    background-color: rgb(19, 37, 72);
+    margin-top: auto;
+}
+
+
+@media screen and (max-width: 540px) {
+    
+    body {
+        font-size: 12px;
+    }
+
+} 
